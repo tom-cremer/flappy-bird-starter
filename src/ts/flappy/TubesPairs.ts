@@ -4,7 +4,7 @@ import {settings} from "./settings";
 import {Random} from "../framework/heplers/Random";
 
 export class TubesPairs extends TubesPair implements IAnimatable {
-    private tubesPairs: TubesPair[] = [];
+    public tubesPairs: TubesPair[] = [];
     private frameCount: number;
     private maxFrameInterval: number;
 

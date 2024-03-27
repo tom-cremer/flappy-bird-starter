@@ -5,9 +5,9 @@ import {settings} from "./settings";
 
 export class TubesPair extends Drawable implements IAnimatable {
 
-    private topY: number;
-    private x: number;
-    private bottomY: number;
+    topY: number;
+    x: number;
+    bottomY: number;
 
 
     constructor(canvas: HTMLCanvasElement, ctx: CanvasRenderingContext2D, sprite: HTMLImageElement) {
